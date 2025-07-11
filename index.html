@@ -1,0 +1,398 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>兴和县第一中学、兴和县职业高中 2025招生简章  </title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link rel="icon" href="https://i.postimg.cc/kgw82RNW/image.jpg" />
+  <style>
+    .modal-bg { display:none; position:fixed; z-index:60; inset:0; background:rgba(0,0,0,.5); }
+    .modal { display:none; position:fixed;z-index:70; left:50%; top:50%; transform:translate(-50%,-50%); background:#fff; border-radius:1rem;max-width:95vw;max-height:95vh;overflow:auto;box-shadow:0 6px 30px 0 #6664}
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+<!-- ========== HEADER/NAV ========== -->
+<nav class="fixed top-0 z-40 left-0 right-0 bg-blue-800 text-white shadow">
+  <div class="max-w-6xl mx-auto px-4 flex items-center justify-between h-14">
+    <div class="flex items-center space-x-2 font-bold text-lg">
+      <!-- [LOGO图片-可替换] -->
+      <img src="https://i.postimg.cc/kgw82RNW/image.jpg" class="w-9 h-9 rounded-full" alt="学校LOGO"/>
+      <span>兴和县第一中学、兴和县职业高中 2025招生 </span>
+    </div>
+    <div class="hidden md:flex space-x-5 font-medium">
+      <a href="#highlight" class="hover:text-yellow-200">成绩亮点</a>
+      <a href="#classes" class="hover:text-yellow-200">班型介绍</a>
+      <a href="#env" class="hover:text-yellow-200">校园环境</a>
+      <a href="#consult" class="hover:text-yellow-200">咨询报名</a>
+    </div>
+    <a href="#consult" class="md:hidden block"> <svg width="26" height="26" viewBox="0 0 24 24"><path fill="#fff" d="M3 7h18v2H3V7zm0 4h18v2H3v-2zm0 4h12v2H3v-2z"/></svg> </a>
+  </div>
+</nav>
+
+<!-- ========== HERO/首屏 ========= -->
+<section class="pt-14 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+  <div class="max-w-6xl mx-auto px-4 py-14 flex flex-col md:flex-row items-center">
+    <div class="flex-1 space-y-4">
+      <h1 class="text-3xl md:text-5xl font-extrabold mb-3">奋进不息<br><span class="text-yellow-300">兴和一中</span>2025招生全面启动</h1>
+      <div class="space-y-2">
+        <p class="text-lg">本科上线率 <b class="text-yellow-200 text-2xl">47.41%</b>，低进高出、名师执教、奖助政策全覆盖。</p>
+        <p class="">70年县域名校，帮助无数学子圆梦本科/名校。</p>
+      </div>
+      <div class="flex space-x-6 pt-8">
+        <div class="text-center">
+          <h2 class="text-3xl font-bold text-yellow-300">209分</h2>
+          <p class="text-xs">最大单人高考进步</p>
+        </div>
+        <div class="text-center">
+          <h2 class="text-3xl font-bold text-yellow-300">11人</h2>
+          <p class="text-xs">超500分成绩</p>
+        </div>
+      </div>
+      <a href="#consult" class="inline-block bg-yellow-300 hover:bg-yellow-200 text-blue-900 px-7 py-2 mt-5 rounded font-bold shadow">了解招生政策</a>
+    </div>
+    <div class="flex-1 flex justify-center items-center">
+      <!-- [首屏主图-可换] 建议：校园航拍照/校门/集体照 JPG/PNG 推荐900x500 -->
+      <img src="https://i.postimg.cc/d134WDTr/IMG-5311.jpg" alt="校园大图" class="rounded-lg shadow-2xl border-4 border-blue-700 mt-7 md:mt-0 max-w-sm md:max-w-lg" />
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENT/成绩亮点+成长故事 -->  
+<section id="highlight" class="py-14 bg-white">  
+  <div class="max-w-6xl mx-auto px-3">  
+    <div class="grid md:grid-cols-2 gap-8 items-center">  
+      <!-- 左侧：核心数据亮点 -->  
+      <div>  
+        <h2 class="text-2xl font-bold text-blue-800 mb-5">我们用实力说话</h2>  
+        <ul class="list-disc list-inside text-blue-900 text-xl font-medium space-y-2">  
+          <li>2025年高考本科上线率 <span class="text-blue-700 font-bold">47.41%</span>，再创新高</li>  
+          <li><span class="text-blue-700 font-bold">11人</span>成绩超500分，<span class="text-blue-700 font-bold">65人</span>超445分</li>  
+          <li>“低进高出”典型：普通生逆袭、每年都有明显进步</li>  
+        </ul>  
+        <div class="mt-4 text-gray-700 text-lg">  
+          <span class="font-bold">快速咨询电话：</span>0474-7218605  
+        </div>  
+      </div>  
+      <!-- 右侧：真实学子榜单（原先位置） -->  
+      <div class="bg-blue-50 rounded-xl p-6 shadow flex flex-col justify-center">  
+        <div class="font-bold mb-2 text-blue-700 text-center text-lg">真实学子成长故事</div>  
+        <table class="w-full text-sm mb-3">  
+          <thead>  
+            <tr class="text-blue-900 text-left">  
+              <th>姓名</th><th>中考</th><th>高考</th><th>进步</th><th>故事详情</th>  
+            </tr>  
+          </thead>  
+          <tbody>  
+             <tr>
+              <td>刘晓云</td><td>285</td><td>494</td><td class="font-bold text-yellow-500">209</td>
+              <td><button class="text-blue-800 underline open-modal" data-modal="#modal-liu">点击查看</button></td>
+            </tr>
+            <tr>
+              <td>张佳茜</td><td>340.5</td><td>506</td><td class="font-bold text-yellow-500">165.5</td>
+              <td><button class="text-blue-800 underline open-modal" data-modal="#modal-zhang">点击查看</button></td>
+            </tr>
+            <tr>
+              <td>范鹏举</td><td>374</td><td>532</td><td class="font-bold text-yellow-500">158</td>
+              <td><button class="text-blue-800 underline open-modal" data-modal="#modal-zhang">点击查看</button></td>
+            </tr>
+            <tr>
+              <td>李慧</td><td>322</td><td>483</td><td class="font-bold text-yellow-500">161</td>
+              <td><button class="text-blue-800 underline open-modal" data-modal="#modal-zhang">点击查看</button></td>
+            </tr>
+            <tr>
+              <td>张佳茜</td><td>340.5</td><td>506</td><td class="font-bold text-yellow-500">165.5</td>
+              <td><button class="text-blue-800 underline open-modal" data-modal="#modal-zhang">点击查看</button></td>
+            </tr>
+          </tbody>  
+        </table>  
+      </div>  
+    </div>  
+    <!-- 学生故事弹窗 -->  
+    <div class="modal-bg" id="modal-bg"></div>  
+    <div class="modal w-full max-w-lg p-7" id="modal-liu">  
+      <h2 class="text-xl font-bold mb-2 text-blue-700">刘晓云：三年逆袭之路</h2>  
+      <p>中考285分，在兴和一中努力三年高考逆袭494分，提升209分。家中普通，性格内向但勤奋，班主任耐心辅导，最终实现了梦想的突破。</p>  
+      <button class="mt-7 bg-blue-700 text-white rounded px-5 py-1 close-modal">关闭</button>  
+    </div>  
+    <div class="modal w-full max-w-lg p-7" id="modal-zhang">  
+      <h2 class="text-xl font-bold mb-2 text-blue-700">张佳茜：稳步向上的自信之星</h2>  
+      <p>中考340.5分入学，三年进步至高考506分，提升165分。感谢老师悉心指导，感谢学校多元培养，现已被一本高校录取。</p>  
+      <button class="mt-7 bg-blue-700 text-white rounded px-5 py-1 close-modal">关闭</button>  
+    </div>  
+    <div class="modal w-full max-w-lg p-7" id="modal-fan">  
+      <h2 class="text-xl font-bold mb-2 text-blue-700">范鹏举：挑战自我，成功逆袭</h2>  
+      <p>中考374分，高考532分，提升158分。家校共育、老师带领、刻苦努力成就飞跃。</p>  
+      <button class="mt-7 bg-blue-700 text-white rounded px-5 py-1 close-modal">关闭</button>  
+    </div>  
+  </div>  
+</section>  
+
+<!-- 多样班型，关键诉求分点，弱化照片，突出咨询引导 -->  
+<section id="classes" class="py-14 bg-blue-50">  
+  <div class="max-w-6xl mx-auto px-3">  
+    <h2 class="text-2xl font-bold text-blue-800 mb-10">多元班型，针对性培养</h2>  
+    <div class="grid md:grid-cols-3 gap-8">  
+
+      <!-- 实验班 -->  
+      <div class="bg-white rounded-xl shadow p-6 flex flex-col h-full cursor-pointer class-card" data-modal="#modal-class1">  
+        <h3 class="font-bold mb-2 text-blue-700 text-lg">实验班</h3>  
+        <ul class="list-disc ml-5 text-base text-gray-800 space-y-2">  
+          <li>适合成绩较优、爱学的孩子</li>  
+          <li>骨干教师小班授课，2人间宿舍</li>  
+          <li>重奖助政策支持，助力冲刺一本</li>  
+          <li>高考录取率远高于全校平均</li>  
+        </ul>  
+        <div class="mt-auto pt-2 text-green-700 font-semibold text-sm">「给冲劲孩子加一把力，欢迎家长现场咨询！」</div>  
+      </div>  
+
+      <!-- 艺体特色班 -->  
+      <div class="bg-white rounded-xl shadow p-6 flex flex-col h-full cursor-pointer class-card" data-modal="#modal-class2">  
+        <h3 class="font-bold mb-2 text-blue-700 text-lg">艺体特色班</h3>  
+        <ul class="list-disc ml-5 text-base text-gray-800 space-y-2">  
+          <li>适合有音乐/美术/体育特长孩子</li>  
+          <li>专业老师小班培养，历年升学率高</li>  
+          <li>可走高考/特长升学两条路</li>  
+        </ul>  
+        <div class="mt-auto pt-2 text-green-700 font-semibold text-sm">「特长不丢，升学有路，欢迎实地参观！」</div>  
+      </div>  
+
+      <!-- 职普融通班 -->  
+      <div class="bg-white rounded-xl shadow p-6 flex flex-col h-full cursor-pointer class-card" data-modal="#modal-class3">  
+        <h3 class="font-bold mb-2 text-blue-700 text-lg">职普融通&特色班</h3>  
+        <ul class="list-disc ml-5 text-base text-gray-800 space-y-2">  
+          <li>成绩一般也能逆袭成才</li>  
+          <li>热门专业可选：铁路、护理、计算机等</li>  
+          <li>毕业可升学也可直接就业</li>  
+          <li>多项奖助金，减轻家庭压力</li>  
+        </ul>  
+        <div class="mt-auto pt-2 text-green-700 font-semibold text-sm">「分数不高一样有好出路，现场报名更便捷！」</div>  
+      </div>  
+    </div>  
+
+    <!-- 班型详情弹窗 -->  
+    <div class="modal p-6 max-w-lg" id="modal-class1">  
+      <h2 class="text-blue-800 font-bold text-xl mb-2">实验班详细介绍</h2>  
+      <ul class="list-disc pl-5 text-gray-900 mb-3">  
+        <li>招收中考分数前30名优秀学生，小班制教学</li>  
+        <li>全科骨干教师团队，重奖助</li>  
+        <li>2人间独卫宿舍，管理严格</li>  
+        <li>三年高考一本率全校第一</li>  
+      </ul>  
+      <div class="mt-2 text-blue-600">欢迎家长到校实地交流，体验真实课堂氛围！</div>  
+      <button class="mt-7 bg-blue-700 text-white rounded px-5 py-1 close-modal">关闭</button>  
+    </div>  
+    <div class="modal p-6 max-w-lg" id="modal-class2">  
+      <h2 class="text-blue-800 font-bold text-xl mb-2">艺体特色班详细介绍</h2>  
+      <ul class="list-disc pl-5 text-gray-900 mb-3">  
+        <li>音乐、美术、体育三方向，专业师资对接高校</li>  
+        <li>每年高考、艺考上线率居全县头部</li>  
+        <li>支持普通升学和特长升学双升</li>  
+      </ul>  
+      <div class="mt-2 text-blue-600">欢迎孩子和家长来校参观
+</section>  
+
+<!-- ========== 校园环境轮播/图集 ========== -->
+<section id="env" class="py-14 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-2xl font-bold text-blue-800 mb-8">校园环境 </h2>
+    <div class="grid md:grid-cols-4 gap-4">
+      <!-- [校园四景图片可换 400x270] -->
+      <img src="https://i.postimg.cc/gjGJsK8M/IMG-5325.jpg" class="rounded shadow" alt="百日誓师"/><!-- 百日誓师 -->
+      <img src="https://i.postimg.cc/dtH1Rr1B/IMG-5322.jpg" class="rounded shadow" alt="元旦晚会"/><!-- 元旦晚会 -->
+      <img src="https://i.postimg.cc/GmZB8P88/image.png" class="rounded shadow" alt="宿舍楼"/><!-- 宿舍 -->
+      <img src="https://i.postimg.cc/25GVHs9v/image.png" class="rounded shadow" alt="实验楼"/><!-- 实验楼 -->
+    </div>
+    <div class="text-center mt-5">
+      <a href="#" class="inline-block text-blue-700 underline text-lg">点此开启360°全景导览</a><!-- 可对接全景漫游H5/小程序链接 -->
+    </div>
+  </div>
+</section>
+
+<!-- ========== 咨询与互动 H5 ========== -->
+<section id="consult" class="bg-blue-800 text-white py-14">
+  <div class="max-w-3xl mx-auto px-4 text-center">
+    <h2 class="text-2xl font-bold mb-4">招生在线咨询</h2>
+    <div class="flex flex-col md:flex-row items-center justify-center gap-12 mb-8">
+      <div>
+        <!-- [招生微信二维码图片可换 120x120+ PNG] -->
+        <img src="images/xhyz-qrcode.png" alt="官方微信" class="mx-auto bg-white p-2 rounded mb-2 shadow">
+        <div>报考咨询登记</div>
+      </div>
+      <div>
+        <!-- [一键电话设置] -->
+        <a href="tel:13484741789" class="bg-yellow-300 px-6 py-2 font-bold rounded shadow text-blue-900 hover:bg-yellow-200 transition">一键电话咨询</a>
+      </div>
+    </div>
+
+    <!-- ========== 高考潜力预测互动工具 ========== -->
+    <div class="bg-white p-6 rounded shadow-md mb-8 inline-block w-full max-w-md text-blue-900">
+      <h3 class="font-bold mb-2">🧮 高考潜力预测小工具</h3>
+      <form id="gaokao-predict-form" class="flex flex-row items-center justify-center gap-2 mb-2">
+        <input type="number" min="200" max="500" id="midscore" placeholder="输入中考分数" class="p-2 rounded border outline-none w-36" required />
+        <button type="submit" class="bg-blue-700 text-white font-semibold rounded px-4 py-2 hover:bg-blue-800 transition">预测高考分数</button>
+      </form>
+      <div id="gaokao-predict-result" class="text-center font-bold text-xl"></div>
+      <small class="block text-blue-500 mt-2">* 模型基于本校历年学子成长曲线，仅供参考</small>
+    </div>
+
+    <!-- [报名表单可对接自有H5表单或第三方] -->
+    <div class="mt-8">
+      <a href="#" class="bg-blue-600 px-7 py-2 text-white rounded hover:bg-blue-700 font-semibold shadow transition">报名表单填写</a>
+      <a href="#" class="ml-5 underline underline-offset-4 text-yellow-200 font-semibold hover:text-yellow-400">→ 班型测评工具入口</a>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-blue-900 text-blue-100 text-center py-6 text-sm">
+  ©2025 兴和县第一中学｜地址：乌兰察布市兴和县新城区教育园区｜咨询电话：0474-7218605
+</footer>
+
+<!-- ========== JS for 互动弹窗/高考预测等 ========== -->
+<script>
+$(function(){
+  // 打开modal
+  $(".open-modal, .class-card").click(function(){
+    let target = $(this).data("modal");
+    $("#modal-bg").show();
+    $(target).show();
+  });
+  // 关闭modal
+  $(".close-modal, #modal-bg").click(function(){
+    $(".modal").hide();
+    $("#modal-bg").hide();
+  });
+  // 高考潜力预测（简单线性公式）可自定
+  $("#gaokao-predict-form").submit(function(e){
+    e.preventDefault();
+    let m = parseInt($("#midscore").val());
+    if(isNaN(m)||m<150||m>500){
+      $("#gaokao-predict-result").html("请正确输入中考分数");
+      return;
+    }
+    // 举例模型：高考分=中考分*1.25+140
+    let res = Math.round(m*1.25+140);
+    $("#gaokao-predict-result").html("预测高考分：" + res + " 分");
+  });
+  // 班型卡片hover效果（选填）
+});
+</script>
+</body>
+</html>
+
+<!-- 招生报考简易流程图，清晰可交互，适配手机PC -->
+<div class="bg-blue-50 px-4 py-7 rounded-xl max-w-2xl mx-auto my-8">
+  <h3 class="text-xl font-bold text-blue-800 mb-4 text-center">报考兴和县职业高中流程图</h3>
+  <div class="w-full flex justify-center">
+    <svg width="100%" height="360" viewBox="0 0 430 360">
+      <!-- 步骤1：了解/咨询 -->
+      <g>
+        <rect x="30" y="20" width="140" height="40" rx="12" fill="#2563eb"/>
+        <text x="100" y="46" font-size="15" text-anchor="middle" fill="#fff">1 咨询学校</text>
+      </g>
+      <!-- 箭头 -->
+      <line x1="100" y1="60" x2="100" y2="80" stroke="#2563eb" stroke-width="3" />
+      <polygon points="100,80 92,75 108,75" fill="#2563eb"/>
+      
+      <!-- 步骤2：确定意愿 -->
+      <g>
+        <rect x="30" y="90" width="140" height="40" rx="12" fill="#2563eb"/>
+        <text x="100" y="116" font-size="15" text-anchor="middle" fill="#fff">2 家长同意报名</text>
+      </g>
+      <line x1="100" y1="130" x2="100" y2="150" stroke="#2563eb" stroke-width="3" />
+      <polygon points="100,150 92,145 108,145" fill="#2563eb"/>
+      
+      <!-- 步骤3：网上/现场志愿填报 -->
+      <g>
+        <rect x="30" y="160" width="140" height="40" rx="12" fill="#2563eb"/>
+        <text x="100" y="186" font-size="15" text-anchor="middle" fill="#fff">3 填报志愿</text>
+        <text x="100" y="203" font-size="12" text-anchor="middle" fill="#ffe066">现场/网上均可</text>
+      </g>
+      <line x1="100" y1="210" x2="100" y2="230" stroke="#2563eb" stroke-width="3" />
+      <polygon points="100,230 92,225 108,225" fill="#2563eb"/>
+      
+      <!-- 步骤4：查询录取结果 -->
+      <g>
+        <rect x="30" y="240" width="140" height="40" rx="12" fill="#2563eb"/>
+        <text x="100" y="266" font-size="15" text-anchor="middle" fill="#fff">4 查询录取</text>
+      </g>
+      <line x1="100" y1="280" x2="100" y2="300" stroke="#2563eb" stroke-width="3" />
+      <polygon points="100,300 92,295 108,295" fill="#2563eb"/>
+      
+      <!-- 步骤5：来校报到 -->
+      <g>
+        <rect x="30" y="310" width="140" height="40" rx="12" fill="#16a34a"/>
+        <text x="100" y="336" font-size="15" text-anchor="middle" fill="#fff">5 学校报到</text>
+      </g>
+      
+      <!-- 右侧说明分支 -->
+      <g>
+        <rect x="230" y="85" width="180" height="160" rx="15" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+        <text x="320" y="110" font-size="14" text-anchor="middle" fill="#2563eb"><tspan font-weight="bold">常见问题</tspan></text>
+        <text x="235" y="130" font-size="12" fill="#2563eb">• 不会操作网上报名怎么办？</text>
+        <text x="235" y="147" font-size="12" fill="#333">可到学校/报名点现场帮填</text>
+        <text x="235" y="166" font-size="12" fill="#2563eb">• 顾虑学费、生活费？</text>
+        <text x="235" y="183" font-size="12" fill="#333">有免费/助学金，经济困难学生优先</text>
+        <text x="235" y="202" font-size="12" fill="#2563eb">• 家长想参观学校？</text>
+        <text x="235" y="219" font-size="12" fill="#333">可提前预约，随时看校</text>
+      </g>
+    </svg>
+  </div>
+</div>
+
+
+<!-- 互动报名助手，简单分步点选 -->
+<div id="helper-root" class="max-w-xl mx-auto my-10 bg-white border border-blue-100 rounded-xl shadow-lg p-6">
+  <h3 class="text-lg font-bold mb-4 text-blue-800 text-center">一问一答·帮你快速报名</h3>
+  <div id="qa-area">
+    <div class="text-base text-center mb-6">
+      1. 你家孩子目前是...？
+    </div>
+    <div class="flex justify-center gap-8 mb-3">
+      <button class="bg-blue-600 text-white px-7 py-2 rounded-lg text-lg cursor-pointer" onclick="nextQA(1)">应届中考生</button>
+      <button class="bg-blue-600 text-white px-7 py-2 rounded-lg text-lg cursor-pointer" onclick="nextQA(2)">往届生/其他</button>
+    </div>
+  </div>
+</div>
+<script>
+function nextQA(step) {
+  let html = '';
+  if(step == 1){
+    html = `
+      <div class="text-base text-center mb-5">2. 你们家方便用手机/电脑操作吗？</div>
+      <div class="flex justify-center gap-8 mb-3">
+        <button class="bg-blue-600 text-white px-7 py-2 rounded" onclick="nextQA(3)">能，想自己填报</button>
+        <button class="bg-blue-600 text-white px-7 py-2 rounded" onclick="nextQA(4)">不会，需要老师帮</button>
+      </div>
+    `;
+  } else if(step == 2){
+    html = `
+      <div class="text-base text-center mb-6">建议直接加老师微信/致电，现场咨询报名</div>
+      <div class="flex flex-col items-center justify-center">
+        <div class="bg-white rounded p-2 shadow inline-block mb-2"><img src="images/wechat-qrcode.png" alt="微信二维码" class="w-20"/></div>
+        <div class="font-bold text-blue-800 mb-1">📞 13484741789（陈老师）</div>
+        <button class="bg-green-600 text-white px-7 py-2 rounded" onclick="document.getElementById('helper-root').style.display='none'">我知道了</button>
+      </div>
+    `;
+  } else if(step == 3){
+    html = `
+      <div class="text-base text-center mb-8">你可在7月16-18日，用县里统一平台自助填报“兴和职业高中”志愿！</div>
+      <div class="flex flex-col items-center justify-center">
+        <button class="bg-blue-700 text-white px-7 py-2 rounded" onclick="document.getElementById('helper-root').style.display='none'">继续上面流程</button>
+      </div>
+    `;
+  } else if(step == 4){
+    html = `
+      <div class="text-base text-center mb-6">你可直接到学校现场/招生咨询点，请老师帮你填报志愿！</div>
+      <div class="bg-white rounded p-2 shadow inline-block mb-2"><img src="images/wechat-qrcode.png" alt="微信二维码" class="w-20"/></div>
+      <div class="font-bold text-blue-800 mb-1">到校或加老师微信，随时帮你！</div>
+      <div class="font-bold text-blue-800 mb-1">电话：13484741789</div>
+      <button class="bg-green-600 text-white px-7 py-2 rounded" onclick="document.getElementById('helper-root').style.display='none'">我知道了</button>
+    `;
+  }
+  document.getElementById('qa-area').innerHTML = html;
+}
+</script>
